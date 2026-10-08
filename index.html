@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home &middot; Overrun</title>
+<style>
+:root{
+  --bg:#f6f7f3; --card:#fff; --ink:#131711; --muted:#565f52;
+  --brand:#0d6b6d; --gold:#ee6b4a; --line:#e2e6dc;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#0d110e; --card:#151a16; --ink:#e4eadf; --muted:#96a092;
+         --brand:#7fd0cc; --gold:#f08a6e; --line:#232a24; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:44rem;margin:0 auto;padding:2.5rem 1.25rem 5rem}
+header{display:flex;align-items:center;gap:.7rem;margin-bottom:2.5rem}
+.mark{width:34px;height:34px;border-radius:9px;
+  background:linear-gradient(160deg,#107070,#04343a);
+  display:grid;place-items:center;color:#eef3ea;font-size:15px;font-weight:700}
+header b{font-size:1.05rem;letter-spacing:-.01em}
+h1{font-size:1.9rem;line-height:1.2;letter-spacing:-.02em;margin:0 0 .4rem}
+h2{font-size:1.12rem;margin:2.4rem 0 .6rem;letter-spacing:-.01em}
+p,li{color:var(--ink)}
+.lede{color:var(--muted);font-size:1.05rem;margin:0 0 2rem}
+.meta{color:var(--muted);font-size:.85rem;margin:0 0 2.2rem}
+a{color:var(--brand)}
+ul{padding-left:1.15rem}
+li{margin:.3rem 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:1.1rem 1.25rem;margin:1.4rem 0}
+.warn{border-left:4px solid var(--gold)}
+.warn h2{margin-top:0}
+.small{font-size:.88rem;color:var(--muted)}
+footer{margin-top:4rem;padding-top:1.4rem;border-top:1px solid var(--line);
+  color:var(--muted);font-size:.85rem}
+nav a{margin-right:1rem}
+</style>
+</head><body><div class="wrap">
+<header><div class="mark">&#9679;</div><b>Overrun</b></header>
+
+<h1>The time after handover is still work.</h1>
+<p class="lede">Overrun is a ten-second log for doctors: when you were rostered, when you actually
+left, why, and who asked you to stay &mdash; then a claim pack you can hand to payroll, your JMO unit
+or your guardian of safe working.</p>
+
+
+<div class="card warn">
+<h2>A record, not advice &mdash; and no patient data</h2>
+<p>Overrun is an independent app. It is not connected to, endorsed by or acting for any hospital,
+health service, NHS body, rostering or payroll provider, medical union or government. It adds up the
+times you enter and compares them with limits you set. It is <b>not legal, industrial or financial
+advice</b>, and it does not decide whether any time is payable, how much, or under which agreement
+&mdash; your contract or enterprise agreement, your payroll team and your union do. Built-in starting
+values for working-hours limits are summaries of public documents on the effective date and may not
+match your contract; you can change every one.</p>
+<p><b>Never enter patient names, record numbers, dates of birth or anything that identifies a
+patient.</b> Reasons are general categories on purpose.</p>
+</div>
+
+
+<h2>What it does</h2>
+<ul>
+<li>Asks how each rostered shift went, with <b>Left on time</b>, <b>Leaving now</b> and <b>Still
+here</b> right on the notification.</li>
+<li>Counts extra time as minutes started before the rostered start plus minutes finished after the
+rostered end. Leaving early is shown, but never netted off another day. A callback counts in
+full.</li>
+<li>Keeps a running total of extra time not yet claimed, by pay period, and &mdash; if you set one,
+as England's 28-day exception-reporting window &mdash; warns you a week before it closes.</li>
+<li>Builds a PDF and a CSV for any pay period: rostered and actual times, reasons, who requested the
+work, missed meal breaks, and a signature line.</li>
+<li>Shows how far your roster is from your real week, which shifts and reasons run over, and where
+your hours crossed the limits you set (longest shift, shortest rest, most hours in 7 days, weekly
+average).</li>
+</ul>
+
+<h2>What it does not do</h2>
+<ul>
+<li>It does not connect to StaffLink, ESR, any rostering system or payroll, and it does not submit
+claims or exception reports for you.</li>
+<li>It does not work out overtime pay under an award or contract. If you enter an hourly rate it
+shows your own estimate, labelled as one.</li>
+<li>It has no account, no server, no analytics and no advertising code.</li>
+</ul>
+
+<div class="card">
+<h2>Where the data lives</h2>
+<p>On your iPhone, and nowhere else. The other side of that, said plainly: <b>there is no copy
+anywhere, so losing the phone loses the record.</b> Keep your iPhone backup on, and export your claim
+packs as you go.</p>
+</div>
+
+<h2>Price</h2>
+<p>7 days free, then US$39.99 (or the local equivalent shown in the App Store) a year, or US$5.99 (or the local equivalent) a month. Cancel any
+time in your Apple Account settings. Full terms are on the <a href="terms.html">Terms</a> page.</p>
+
+<footer>
+<nav><a href="index.html">Home</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
+<p>Overrun is made by Nguyen Anh Tuan. Questions: <a href="mailto:1551010058.linh+overrun@gmail.com">1551010058.linh+overrun@gmail.com</a></p>
+<p class="small">These pages are written in plain language and are not legal advice.</p>
+</footer>
+</div></body></html>
