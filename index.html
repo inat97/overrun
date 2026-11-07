@@ -2,7 +2,9 @@
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Home &middot; Overrun</title>
+<title>Overrun &middot; Overtime and exception report log for hospital doctors</title>
+<meta name="description" content="A ten-second log of unrostered overtime and exception reports for hospital doctors in Australia, the UK, New Zealand and Ireland, with a claim pack you can hand over.">
+<link rel="canonical" href="https://inat97.github.io/overrun/">
 <style>
 :root{
   --bg:#f6f7f3; --card:#fff; --ink:#131711; --muted:#565f52;
@@ -38,9 +40,20 @@ li{margin:.3rem 0}
 footer{margin-top:4rem;padding-top:1.4rem;border-top:1px solid var(--line);
   color:var(--muted);font-size:.85rem}
 nav a{margin-right:1rem}
+header a{color:inherit;text-decoration:none;display:flex;align-items:center;gap:.7rem}
+ol{padding-left:1.3rem}
+h3{font-size:1rem;margin:1.6rem 0 .4rem}
+.tablewrap{overflow-x:auto;margin:1rem 0}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+th,td{border-bottom:1px solid var(--line);padding:.45rem .5rem;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.guides li{margin:.6rem 0}
+.sources li{font-size:.9rem;overflow-wrap:anywhere}
+.cta{display:inline-block;margin-top:.4rem;padding:.55rem 1rem;border-radius:10px;
+  background:var(--brand);color:var(--bg);text-decoration:none;font-weight:600}
 </style>
 </head><body><div class="wrap">
-<header><div class="mark">&#9679;</div><b>Overrun</b></header>
+<header><a href="index.html"><div class="mark">&#9679;</div><b>Overrun</b></a></header>
 
 <h1>The time after handover is still work.</h1>
 <p class="lede">Overrun is a ten-second log for doctors: when you were rostered, when you actually
@@ -94,12 +107,21 @@ anywhere, so losing the phone loses the record.</b> Keep your iPhone backup on, 
 packs as you go.</p>
 </div>
 
+<h2 id="guides">Guides</h2>
+<p>Plain-English answers to the questions doctors ask about claiming extra hours. Useful whether or
+not you ever install the app.</p>
+<ul class="guides">
+<li><a href="guides/exception-report-england.html">How to submit an exception report in England (2026 rules)</a><br><span class="small">Exception reporting for resident doctors in England after the February 2026 reforms: the 28-day deadline, evidence, pay or TOIL, and what happens next.</span></li>
+<li><a href="guides/unrostered-overtime-australia.html">How to claim unrostered overtime as a junior doctor in Australia</a><br><span class="small">How junior doctors claim unrostered overtime in Australia, with the NSW process in detail: UROC, the 4-week deadline, declarations, approvals and missed meal breaks.</span></li>
+<li><a href="guides/what-to-record-overtime-shift.html">What to record for every overtime shift</a><br><span class="small">A checklist for doctors in the UK and Australia: the times, reasons, approvals and evidence to write down for each overtime shift, and what to leave out.</span></li>
+</ul>
+
 <h2>Price</h2>
 <p>7 days free, then US$39.99 (or the local equivalent shown in the App Store) a year, or US$5.99 (or the local equivalent) a month. Cancel any
 time in your Apple Account settings. Full terms are on the <a href="terms.html">Terms</a> page.</p>
 
 <footer>
-<nav><a href="index.html">Home</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
+<nav><a href="index.html">Home</a><a href="index.html#guides">Guides</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
 <p>Overrun is made by Nguyen Anh Tuan. Questions: <a href="mailto:1551010058.linh+overrun@gmail.com">1551010058.linh+overrun@gmail.com</a></p>
 <p class="small">These pages are written in plain language and are not legal advice.</p>
 </footer>
